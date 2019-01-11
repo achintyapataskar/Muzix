@@ -1,9 +1,6 @@
-/home/user/Documents/Muzix/Muzix/src/main/java/com/stackroute/muzix/repository/TrackDataBase.java
-/home/user/Documents/Muzix/Muzix/src/main/java/com/stackroute/muzix/MuzixApplication.java
-/home/user/Documents/Muzix/Muzix/src/main/java/com/stackroute/muzix/domain/Track.java
-/home/user/Documents/Muzix/Muzix/src/main/java/com/stackroute/muzix/repository/CommentDataBase.java
-/home/user/Documents/Muzix/Muzix/src/main/java/com/stackroute/muzix/controller/MuzixController.java
-/home/user/Documents/Muzix/Muzix/src/main/java/com/stackroute/muzix/domain/Comment.java
-/home/user/Documents/Muzix/Muzix/src/main/java/com/stackroute/muzix/domain/Artist.java
-/home/user/Documents/Muzix/Muzix/src/main/java/com/stackroute/muzix/repository/TrackCommentDataBase.java
-/home/user/Documents/Muzix/Muzix/src/main/java/com/stackroute/muzix/repository/ArtistDataBase.java
+/home/user/Documents/Muzix/src/main/java/com/stackroute/muzix/services/TrackServices.java
+/home/user/Documents/Muzix/src/main/java/com/stackroute/muzix/domain/Track.java
+/home/user/Documents/Muzix/src/main/java/com/stackroute/muzix/controller/MuzixController.java
+/home/user/Documents/Muzix/src/main/java/com/stackroute/muzix/services/TrackDBServices.java
+/home/user/Documents/Muzix/src/main/java/com/stackroute/muzix/repository/TrackRepository.java
+/home/user/Documents/Muzix/src/main/java/com/stackroute/muzix/MuzixApplication.java

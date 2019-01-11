@@ -9,36 +9,15 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class TrackServices {
-    @Autowired
-    private TrackRepository trackRepository;
-    public void setTrackRepository(TrackRepository trackRepository) {
-        this.trackRepository = trackRepository;
-    }
-
-    public Track addTrack(Track track) {
-        Track track1 = trackRepository.save(track);
-        return track1;
-    }
-
-    public Track delTrack(Track track) {
-        trackRepository.deleteById(track.getTrackId());
-        return track;
-    }
-
-    public Track modifyTrack(Track track) {
-        Track track1 = (Track) trackRepository.findByName(track.getName());
-        track1.setComment(track.getComment());
-        track1 = trackRepository.save(track);
-        return track1;
-    }
-
-    public Optional<Track> displayTrack(Track track) {
-        Optional<Track> track1 = (Optional<Track>) trackRepository.findById(track.getTrackId());
-        return track1;
-    }
-    public List<Track> displayTracks() {
-        List<Track> trackList = (List<Track>) trackRepository.findAll();
-        return trackList;
-    }
+public interface TrackServices {
+//    @Autowired
+//    TrackRepository trackRepository;
+//    public void setTrackRepository(TrackRepository trackRepository) {
+//    }
+    //Comment this out to make the class into an interface
+    public Track addTrack(Track track);
+    public Track delTrack(Track track);
+    public Track modifyTrack(Track track);
+    public Optional<Track> displayTrack(Track track);
+    public List<Track> displayTracks();
 }

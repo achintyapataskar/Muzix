@@ -1,9 +1,6 @@
-com/stackroute/muzix/domain/Comment.class
 com/stackroute/muzix/MuzixApplication.class
-com/stackroute/muzix/repository/CommentDataBase.class
-com/stackroute/muzix/repository/TrackCommentDataBase.class
-com/stackroute/muzix/domain/Artist.class
+com/stackroute/muzix/services/TrackServices.class
+com/stackroute/muzix/repository/TrackRepository.class
+com/stackroute/muzix/services/TrackDBServices.class
 com/stackroute/muzix/domain/Track.class
-com/stackroute/muzix/repository/TrackDataBase.class
 com/stackroute/muzix/controller/MuzixController.class
-com/stackroute/muzix/repository/ArtistDataBase.class
